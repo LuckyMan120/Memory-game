@@ -1,0 +1,4 @@
+#!/bin/bash
+for i in {0..11}; do
+  curl "http://lorempixel.com/200/150/" > "$(dirname $0)/img$i.jpg"
+done
